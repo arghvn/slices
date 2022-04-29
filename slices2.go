@@ -30,3 +30,8 @@ func myFunction(fruits []string) {
 // Initial slice values: [Apples Oranges Bananas]
 // Slice values in myFunction(): [Apples Strawberries Bananas]
 // Final slice values: [Apples Strawberries Banana
+
+//more details :
+//In fact, if we defined the array with a value but did not specify the number of cells,
+// it means that we used a slice and not an array, and the method of building without a value is done with the help
+//of the make internal function.
